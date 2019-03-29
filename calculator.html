@@ -5,16 +5,17 @@ function cube() {
 var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 }
-
 function sin() {
 var num = document.getElementById("n1");
 num.value = Math.sin(num.value);
 }
-
 function potencia4() {
 var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 4);
-
+}
+function cuadrado() {
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 2);
 }
 </script>
 </head>
@@ -29,6 +30,7 @@ Number:
 
 <button onclick="potencia4()"> x^4 </button>
 
+<button onclick="cuadrado()"> x^2 </button>
 </p>
 </body>
 </html>
